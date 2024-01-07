@@ -13,8 +13,12 @@ struct Rectangle
 
 int main(){
 
-    struct Rectangle r; // => Declaration, total = 8 bytes
     struct Rectangle rect = {10, 5}; // => Decl + Init
+
+    cout << rect.length << "\n"
+         << rect.breadth << endl;
+
+    struct Rectangle r; // => Declaration, total = 8 bytes
 
     r.length = 15; // . operator used to access the members of a structure
     r.breadth = 10;
