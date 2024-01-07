@@ -4,6 +4,8 @@ using namespace std;
 
 int main(){
     vector<int> v(5);
+
+    //Below is the forEach loop
     for (auto &x:v){
         cin >> x;
     }
