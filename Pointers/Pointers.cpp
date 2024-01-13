@@ -2,6 +2,8 @@
 
 using namespace std;
 
+//Pointer variable always takes 4 bytes
+
 //Pointers are used for accessing heap memory, Resources, parameter passing
 
 int main(){
