@@ -26,6 +26,7 @@ void fun2(int *arr,int n){
 int main(){
 
     int *p;
+    cout << p << endl; //Initial it points to address
     p = fun(5);
     cout << p<<endl;
     p = fun1(5);
